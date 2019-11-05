@@ -10,7 +10,7 @@ android {
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 2
-        versionName "1.0.1"
+        versionName "1.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -35,7 +35,7 @@ dependencies {
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     // Android X
-    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
 
     // Test Libraries
     testImplementation 'junit:junit:4.12'
